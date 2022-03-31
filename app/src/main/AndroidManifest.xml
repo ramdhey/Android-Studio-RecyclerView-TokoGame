@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shopgame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_owl_2___1_"
+        android:label="Toko Game"
+        android:roundIcon="@drawable/ic_owl_2___1_"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShopGame">
+        <activity
+            android:name=".Order"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
